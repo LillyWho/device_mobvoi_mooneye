@@ -1,0 +1,7 @@
+on post-fs-data
+    mkdir /data/media 0770 media_rw media_rw
+
+on init
+    # Support legacy paths
+    symlink /sdcard /mnt/sdcard
+    symlink /sdcard /storage/sdcard0
