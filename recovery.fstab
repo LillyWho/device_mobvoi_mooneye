@@ -1,0 +1,8 @@
+# mount point       fstype    device                                                                flags
+/system       ext4     /dev/block/mmcblk0p14     flags=display="System";backup=1
+/cache        ext4     /dev/block/mmcblk0p15     flags=display="Cache"
+/data         ext4     /dev/block/mmcblk0p17     flags=display="Data"
+/lk           emmc     /dev/block/mmcblk0p6      flags=display="Lk"
+/logo.bin     emmc     /dev/block/mmcblk0p11     flags=display="Logo.bin"
+/boot         emmc     /dev/block/mmcblk0p7      flags=display="Boot";backup=1;flashimg=1
+/recovery     emmc     /dev/block/mmcblk0p8      flags=display="Recovery";backup=1;flashimg=1
